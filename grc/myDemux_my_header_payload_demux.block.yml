@@ -1,4 +1,5 @@
 id: myDemux_my_header_payload_demux
+category: '[myDemux]'
 label: my_header_payload_demux
 flags: [ python, cpp ]
 
