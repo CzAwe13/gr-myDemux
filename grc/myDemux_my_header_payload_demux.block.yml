@@ -77,7 +77,7 @@ outputs:
     vlen: '${ items_per_symbol if output_symbols else 1 }'
 
 templates:
-    imports: import myDemux
+    imports: from gnuradio import myDemux
     make: |-
         myDemux.my_header_payload_demux(
             ${header_len},
