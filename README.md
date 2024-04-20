@@ -5,4 +5,4 @@ cd build\
 cmake ../\
 make -j10\
 sudo make install\
-sudo ldconfig\
+sudo ldconfig
